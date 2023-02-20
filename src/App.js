@@ -107,7 +107,7 @@ function App() {
             variant="outlined"
             onChange={(data) => setNewTitle(data.target.value)} />
         </Box>
-        <Button variant="outlined" onClick={addHandler}>Add</Button>
+        <Button variant="contained" onClick={addHandler}>Add</Button>
       </div>
       <div className='output-container'>
         <div className='card-container'>
